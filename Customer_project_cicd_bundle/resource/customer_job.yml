@@ -1,0 +1,13 @@
+resources:
+  jobs:
+    customer_job:
+
+      name: customer_job
+
+      tasks:
+        - task_key: customer_task
+
+          notebook_task:
+            notebook_path: /Workspace/Data intergration CI-CD/Customer-Project-ci-cd/Customer_project_cicd_bundle/src/test_nb_ci_cd
+
+          existing_cluster_id: 0923-074653-ro02uqyj-v2n
